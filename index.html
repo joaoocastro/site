@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Onde Comer</title>
+	<meta charset="utf-8" />
+	<meta name="author" content="João Augusto" />
+	<meta name="keywords" content="hamburguer, artesanal, promoções, fast food" />
+	<meta name="description" content="hamburgueria artesanal" />
+	<link rel="stylesheet" type="text/css" href="estilo.css" />
+</head>
+<body>
+		
+		<nav>
+		<a class="a-menu" href="#">HOME</a>
+		<a class="a-menu" href="#pag-sobre">SOBRE</a>
+		<a class="a-menu" href="index.html#pag-produtos">PRODUTOS</a>
+		<a class="a-menu" href="index.html#pag-encomendas">ENCOMENDAS</a>
+	    </nav>
+	
+	<header>
+		<img src="img/banner.png"  alt="banner contendo uma imagem de uma xícara com café e um bejú"/> 
+	</header>
+
+	<article>
+	<h1>Café com Bejú</h1>
+	
+	
+		<p>Neste cantinho você encontrará o melhor da nossa Cozinha e de suas Memórias.
+        Ainda menino, João Gabriel saiu de casa para viver um sonho, deixando para trás o tempero e o chamego da mãe. Ter que fazer suas refeições em restaurantes todos os dias o deixava com muita saudade da comida quentinha e repleta de sabores, do cheiro da mexerica sendo descascada para a sobremesa e da conversa carinhosa em torno da mesa.
+		
+
+		<p>Foi assim que surgiu a ideia de receber as pessoas em um lugar charmoso, cheio de afeto, onde os sabores despertem memórias e alegrias. Um lugar onde o saboroso café com bejú, o preferido do João, seja servido com carinho e dedicação, na companhia de quem se quer bem.
+        Seja bem vindo ao Café com bejú! Aqui o tempero caseiro e o carinho se misturam para receber você.</p>
+	</article>		
+	
+	<section id="pag-produtos">
+		<h2>PRODUTOS</h2>
+
+	<div id="container">
+	<div class="card">
+
+		<img class="img-produt" src="img/boloo.png" alt="Bolo com cobertura de chocolate branco" />
+	<div class="card-produt">
+		    <h3>Bolo          R$14,99</h3>
+			<p></p>
+	</div>	
+	</div>
+		
+	<div class="card">
+		<img  class="img-produt" src="img/tapioca.jfif"  alt="tapioca de frango"/>
+		<div class="card-produt">
+		<h3>Tapioca R$6,99</h3>
+		<p></p>
+	</div>	
+	</div>
+	
+
+
+	<div class="card">
+		<img  class="img-produt" src="img/coxinhaa.png" alt="coxinha frita"/>
+		<div class="card-produt">
+		<h3>Coxinha R$4,99</h3>
+		<p></p>
+
+		</div>
+	</div>	
+	
+
+	<div class="card">
+		<img class="img-produt" src="img/cafe.png" alt="Café"/>
+		<div class="card-produt">
+		<h3>Café R$2,50</h3>
+		<p></p>
+
+	</div>	
+	</div>
+
+	</section>
+				
+	
+		 <section id="pag-encomendas">        				
+		
+		<h1>Encomendas</h1>
+
+			<form name="" method="" action="">
+			<label for="nome">Nome:</label>
+			<input id="nome" type="texto" name="nome_completo" size="80" placeholder="Nome Completo" required autofocus=""> 
+
+			<label for="email">E-mail:</label>
+			<input id="email" type="email" name="email" size="80" placeholder="nome@email.com"><br>
+		
+		<label for="nivel">Produto:</label>
+			<select id="nivel" name="nivel">
+				<option value=""></option>
+				<option value="iniciante">Tapioca</option>
+				<option value="basico">Bolo</option>
+				<option value="intermediario">Coxinha</option>
+				<option value="avancado">café</option>
+			</select><br/>
+
+			<label for="quantidade">Quantidade:</label>
+			<input id="quantidade" type="number" name="" min="1" max="10" step="1" />
+		
+
+			<fieldset>
+				<legend>Forma Retirada</legend>
+				<input id="masc" type="radio" name="genero" value="masc"/> <label for="masc">Delivery</label><br>
+				<input id="fem" type="radio" name="genero" value="fem" /> <label for="fem">Retirar no Local</label>
+			</fieldset>
+
+				<label for="msg">Comentários:</label>
+				<textarea id="msg" cols="75" rows="4"></textarea>
+
+
+			<div id="botoes-encomenda">	
+				<input type="submit" name="btn-agendar" value="AGENDAR" />
+				<input type="reset" name="btn-cancelar" value="CANCELAR" />
+			</div>
+
+			</form>
+		</section>
+	<footer>
+	<p>Desenvolvido por <a href="https://www.instagram.com/jooao_castroo/?utm_medium=copy_link" target="_blank">João Augusto </a>- 2021</p>
+    </footer>
+			
+
